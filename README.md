@@ -2,12 +2,12 @@
 Swap Mics on a hotkey press from an external mic to a wireless headset and back.
 
 ### Fast Setup
-1. Download newest version from [Releases](https://github.com/DatDraggy/micswap-arctis-7/releases)
+1. Download newest version from [Releases](https://github.com/DatDraggy/micswap-arctis-7/releases) and Unzip to a new directory
 2. Go into your windows sound settings and change the names of your two microphones to "Desk" and "Headset"
 ![Input Names](https://img.kieran.de/wOstKEe.png)
 3. Run micswap.EXE
 4. Press ALT + C to swap between Mics
-Alternatively, create a shortcut of micswap.EXE and put it in your Autostart windows folder to run it when you start your pc
+Additionally, create a shortcut of micswap.EXE and put it in your Autostart windows folder to run it when you start your PC
 
 ### Slow (Manual) Setup
 #### Requirements
