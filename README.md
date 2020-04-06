@@ -7,7 +7,8 @@ Swap Mics on a hotkey press from an external mic to a wireless headset and back.
 ![Input Names](https://img.kieran.de/wOstKEe.png)
 3. Run micswap.EXE
 4. Press ALT + C to swap between Mics
-Additionally, create a shortcut of micswap.EXE and put it in your Autostart windows folder to run it when you start your PC
+To automatically run micswap on boot, create a link to micswap.EXE, press Windows Key + R, enter `shell:startup` and copy the link to the Autostart folder.
+
 
 ### Slow (Manual) Setup
 #### Requirements
