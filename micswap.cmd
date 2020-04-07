@@ -1,7 +1,13 @@
 IF EXIST "headset" (
-  .\nircmd.exe setdefaultsounddevice "Desk" 0
+  #Multimedia
+  .\nircmd.exe setdefaultsounddevice "Desk" 1
+  #Communication
+  .\nircmd.exe setdefaultsounddevice "Desk" 2
   del headset
 ) ELSE (
-  .\nircmd.exe setdefaultsounddevice "Headset" 0
+  #Multimedia
+  .\nircmd.exe setdefaultsounddevice "Headset" 1
+  #Communication
+  .\nircmd.exe setdefaultsounddevice "Headset" 2
   echo lol > headset
 )
