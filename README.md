@@ -10,7 +10,7 @@ Swap Mics on a hotkey press from an external mic to a wireless headset and back.
 
 To automatically run micswap on boot, create a link to micswap.EXE, press Windows Key + R, enter `shell:startup` and copy the link to the Autostart folder.
 
-If you would like to only change the default communication device, edit micswap.cmd and replace the 0's with 2's
+If you would like to only change the default communication (2) or multimedia (1) device, edit micswap.cmd and remove the desired line.
 
 ### Slow (Manual) Setup
 #### Requirements
