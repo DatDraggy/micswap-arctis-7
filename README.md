@@ -1,5 +1,5 @@
 # micswap
-Swap Mics on a hotkey press from an external mic to a wireless headset and back. The default communication mic will be changed, so set teamspeak, discord or whatever to the Default mic
+Swap Mics on a hotkey press from an external mic to a wireless headset and back. The default microphone will be changed, so set teamspeak, discord or whatever to the Default setting
 
 ### Fast Setup
 1. Download newest version from [Releases](https://github.com/DatDraggy/micswap-arctis-7/releases) and Unzip to a new directory
@@ -10,6 +10,7 @@ Swap Mics on a hotkey press from an external mic to a wireless headset and back.
 
 To automatically run micswap on boot, create a link to micswap.EXE, press Windows Key + R, enter `shell:startup` and copy the link to the Autostart folder.
 
+If you would like to only change the default communication device, edit micswap.cmd and replace the 0's with 2's
 
 ### Slow (Manual) Setup
 #### Requirements
